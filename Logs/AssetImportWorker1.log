@@ -1,0 +1,763 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.5f1 (cc83ebd631f8) revision 13403115'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sonba" at "2026-05-30T11:02:08.3940675Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32584 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-30T11:02:08Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Program Files/Meta Horizon/projects/RCSVR
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+65265
+-licensingIpc
+LicenseClient-sonba
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Program Files/Meta Horizon/projects/RCSVR
+D:/Program Files/Meta Horizon/projects/RCSVR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [8860]  Target information:
+
+Player connection [8860]  * "[IP] 100.88.65.34 [Port] 0 [Flags] 2 [Guid] 2961023651 [EditorId] 2961023651 [Version] 1048832 [Id] WindowsEditor(7,sonnguyen) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8860]  * "[IP] 192.168.68.51 [Port] 0 [Flags] 2 [Guid] 2961023651 [EditorId] 2961023651 [Version] 1048832 [Id] WindowsEditor(7,sonnguyen) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8860] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8860] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-sonba"
+[Licensing::IpcConnector] LicenseClient-sonba channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sonba-6000.4.5" at "2026-05-30T11:02:10.5519219Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7096, path: "C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              d56451ec408a4e8b91fb304605abc9ed
+  Correlation Id:          095d2c817ac174edc63421406d8f4b18
+  External correlation Id: 6302586063527713741
+  Machine Id:              5Eisga/Ol5yqflph8t/K7bKBkQQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sonba-6000.4.5" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sonba-6000.4.5-notifications" at "2026-05-30T11:02:10.5623925Z"
+[Licensing::Module] Licensing Background thread has ended after 2.17s
+[Licensing::Module] Licensing is initialized (took 1.80s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6263137-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 23.27 ms, found 11 plugins.
+Initialize engine version: 6000.4.5f1 (cc83ebd631f8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Program Files/Meta Horizon/projects/RCSVR/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:          NVIDIA
+    VRAM:            3935 MB
+    App VRAM Budget: 1658 MB
+    Driver:          32.0.15.9597
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005140 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.562 seconds
+Domain Reload Profiling: 1223ms
+	BeginReloadAssembly (190ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (303ms)
+		LoadAssemblies (185ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (289ms)
+				TypeCache.ScanAssembly (271ms)
+	FinalizeReload (564ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (76ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly Meta.XR.MultiplayerBlocks.Fusion.dll at Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.Fusion.dll not valid. Loading of assembly skipped.
+Assembly Meta.XR.MultiplayerBlocks.NGO.dll at Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.NGO.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Tutorials.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Tutorials.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Tutorials.Core.Tests.dll at Library/ScriptAssemblies/Unity.Tutorials.Core.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidOpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidOpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidXROpenXR.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidXROpenXR.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidXROpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidXROpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARCore.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARCore.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARCore.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARCore.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARCore.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARCore.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARSubsystems.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CompositionLayers.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CompositionLayers.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CompositionLayers.Tests.dll at Library/ScriptAssemblies/Unity.XR.CompositionLayers.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestTooling.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.TestTooling.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 12.14 ms, found 11 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+I0530 13:02:16.596972  8860 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.201.0
+I0530 13:02:16.697811  8860 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.624 seconds
+Domain Reload Profiling: 3879ms
+	BeginReloadAssembly (259ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (809ms)
+		LoadAssemblies (498ms)
+		AnalyzeDomain (451ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (270ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2625ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			BeforeProcessingInitializeOnLoad (241ms)
+			ProcessInitializeOnLoadAttributes (1773ms)
+			ProcessInitializeOnLoadMethodAttributes (340ms)
+			AfterProcessingInitializeOnLoad (13ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 13.52 ms, found 11 plugins.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7526 unused Assets / (11.2 MB). Loaded Objects now: 8515.
+Memory consumption went from 187.0 MB to 175.8 MB.
+Total: 31.275800 ms (FindLiveObjects: 1.497700 ms CreateObjectMapping: 1.858000 ms MarkObjects: 21.299400 ms  DeleteObjects: 6.617500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 259.121475 seconds.
+  path: Assets/Scenes/ingolstadt/all-buildings/ingolstadt_all_lod2_buildings.obj
+  importAddress: Guid(a20af2a73e31e6d4d8bcb68f556faaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingolstadt/all-buildings/ingolstadt_all_lod2_buildings.obj using Guid(a20af2a73e31e6d4d8bcb68f556faaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'aefa9e567940dc3f238e7fa816dcfdb2') in 809.73246519999998 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d1beca31153cfacf6f2a42b858252ae7 DependenciesID=6c7b67517fae42ee141a6ccd99f02e12 StaticDependenciesID=f942208ddb5813e8687ce1131f1e628a 
+Number of updated asset objects reloaded before import = 105Number of asset objects unloaded after import = 132670
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly Meta.XR.MultiplayerBlocks.Fusion.dll at Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.Fusion.dll not valid. Loading of assembly skipped.
+Assembly Meta.XR.MultiplayerBlocks.NGO.dll at Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.NGO.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Tutorials.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Tutorials.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Tutorials.Core.Tests.dll at Library/ScriptAssemblies/Unity.Tutorials.Core.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidOpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidOpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidXROpenXR.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidXROpenXR.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidXROpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidXROpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARCore.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARCore.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARCore.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARCore.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARCore.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARCore.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARSubsystems.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CompositionLayers.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CompositionLayers.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CompositionLayers.Tests.dll at Library/ScriptAssemblies/Unity.XR.CompositionLayers.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestTooling.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.TestTooling.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 33.86 ms, found 11 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.929 seconds
+Domain Reload Profiling: 340707ms
+	BeginReloadAssembly (334229ms)
+		DisableScriptedObjects (330967ms)
+		CreateAndSetChildDomain (1537ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (180ms)
+	LoadAllAssembliesAndSetupDomain (2222ms)
+		LoadAssemblies (1323ms)
+		AnalyzeDomain (1215ms)
+			TypeCache.Refresh (62ms)
+			BuildScriptInfoCaches (1071ms)
+			ResolveRequiredComponents (74ms)
+	FinalizeReload (3929ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			BeforeProcessingInitializeOnLoad (421ms)
+			ProcessInitializeOnLoadAttributes (2483ms)
+			ProcessInitializeOnLoadMethodAttributes (432ms)
+			AfterProcessingInitializeOnLoad (22ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 27.54 ms, found 11 plugins.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (8.1 MB). Loaded Objects now: 8602.
+Memory consumption went from 394.6 MB to 386.5 MB.
+Total: 71.787300 ms (FindLiveObjects: 10.555500 ms CreateObjectMapping: 10.165300 ms MarkObjects: 42.648500 ms  DeleteObjects: 8.415100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Import Request.
+  Time since last request: 494.635998 seconds.
+  path: Assets/Scenes/ingolstadt/all-buildings/ingolstadt_all_lod3_buildings.obj
+  importAddress: Guid(d063621968cd20e418b5498c76ceaacb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/all-buildings/ingolstadt_all_lod3_buildings.obj using Guid(d063621968cd20e418b5498c76ceaacb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ce4d70fdf12e9ae60ade96f7f4b33e30') in 0.5907219 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8eb8f5ac4ee1c43544cb0ac466b3a86b DependenciesID=3e9983182971f3f28ae269d48edfb6d4 StaticDependenciesID=482e42e6b3e7a37460d43e1f5da9e337 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 334
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/XR/Settings/OpenXRPackageSettings.asset
+  importAddress: Guid(3dd11dcd12272e54f8a19d8224e35f53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/XR/Settings/OpenXRPackageSettings.asset using Guid(3dd11dcd12272e54f8a19d8224e35f53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3b0fafc5ff8463f59c49be1f6a5c8f32') in 0.3307427 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74e14b269a7674e1b7ea9437a3380d05 DependenciesID=61f169a89764693125a9719ccd7ac260 StaticDependenciesID=b48c6e9275a0939da14e5ced08e464a1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/ingolstadt/all-buildings/ingolstadt_all_lod3_buildings.mtl
+  importAddress: Guid(552df220497938b48aa093a73d804a44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/all-buildings/ingolstadt_all_lod3_buildings.mtl using Guid(552df220497938b48aa093a73d804a44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'efd64fe640ec6e5ad676c7e25903fcfe') in 0.0055668 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe6cda5139ac4c3a718c516a5146174d DependenciesID=5dc47e13b581a5ba2b18a50deff4438e StaticDependenciesID=355e45f1cd176e04ce40b0ab5b68e9ac 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/ingolstadt/all-buildings/ingolstadt_all_lod1_buildings.mtl
+  importAddress: Guid(17f26a61d5f029b4da9f42be64479652) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/all-buildings/ingolstadt_all_lod1_buildings.mtl using Guid(17f26a61d5f029b4da9f42be64479652) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '53ca130a80ba6eabf8214dfb33fbdc04') in 0.0039784 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0313d024ce94839b7f8a4ece589730ba DependenciesID=bb2634687bba73e36337bfa2cee1dc04 StaticDependenciesID=96eca81cab16fbb75512413ad4bf75ce 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scenes/ingolstadt/all-buildings/ingolstadt_all_lod2_buildings.obj
+  importAddress: Guid(a20af2a73e31e6d4d8bcb68f556faaae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/all-buildings/ingolstadt_all_lod2_buildings.obj using Guid(a20af2a73e31e6d4d8bcb68f556faaae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3e3dedf8521bbb505326825f32b0bd8a') in 118.90233720000001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec5941cd92e91e97868ae03730faf742 DependenciesID=1bd8237097eb366f07c8a2ed6c10838c StaticDependenciesID=744bd5ad626ca7386318785868f0febe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 132670
+
+========================================================================
+Received Import Request.
+  Time since last request: 1240.889896 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings
+  importAddress: Guid(d80d1458d146ae44e9fa36d1d704c151) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/250-buildings using Guid(d80d1458d146ae44e9fa36d1d704c151) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1bdb6ecb366915bde555b2f063f0ffda') in 8.0010892 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f97e4394ad88fd47932e6858b50c438d DependenciesID=8d1a697bf0fc0e3a608cfd844e4f9a09 StaticDependenciesID=8f052521564f154caeec134366bed957 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1140.131030 seconds.
+  path: Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod1_roads.obj
+  importAddress: Guid(738f551be9887c247b34a31b1245c466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod1_roads.obj using Guid(738f551be9887c247b34a31b1245c466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ad357d234b5648c7e878733990224316') in 0.8048743 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c71628547603cfe0cab37fab799229d2 DependenciesID=12f8cc6e18b437081002e3008e24912d StaticDependenciesID=9fbcd90d1106f923d1658f002f260d41 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod1_buildings.mtl
+  importAddress: Guid(e8909d5450c7bca4d9e601bcd757ac46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod1_buildings.mtl using Guid(e8909d5450c7bca4d9e601bcd757ac46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '58a2fecc0db02b7dca96cf301c6a4d32') in 0.0189969 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59ed476db33aa4882ba43d382ceed758 DependenciesID=6a916e4742d55360876611543585feb0 StaticDependenciesID=cfafc63ffd84a4ab55699bcf3020b7d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod1_roads.obj
+  importAddress: Guid(738f551be9887c247b34a31b1245c466) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod1_roads.obj using Guid(738f551be9887c247b34a31b1245c466) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'febc16e15698685da629d09750d9a40c') in 0.015425 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f369d546e89c11f74bb04642dd226cc DependenciesID=c82623abdc15098e451ab8d2f9731665 StaticDependenciesID=f98745fa5ec8fa084b6870b45b749fba 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod1_buildings.obj
+  importAddress: Guid(0056439bf27a4554a8d96b52d7f7d08c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod1_buildings.obj using Guid(0056439bf27a4554a8d96b52d7f7d08c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6cfa8b4837299e665fb056fe1b45b26c') in 0.0801551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc150300c94f607fa53ae91b6c353523 DependenciesID=6e8b1d86a512c6732058f9b3fd82c752 StaticDependenciesID=788f8d06dad4a5f9329a14bde408c4f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod1_roads.mtl
+  importAddress: Guid(3e25114069e91c74e91eb171f9b5c58a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod1_roads.mtl using Guid(3e25114069e91c74e91eb171f9b5c58a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '461243c6a7b19a4ac9be4160de58cf6b') in 0.0070167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e1a7f13b6bb7d7e373c83b156fabdfa DependenciesID=05da19db28fcb65fb76f0ed6788326ec StaticDependenciesID=3460dd88c246e65e372027b642006c5b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.797065 seconds.
+  path: Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod2_roads.obj
+  importAddress: Guid(fd14cdb7ae094424fbef5065f1ee1ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod2_roads.obj using Guid(fd14cdb7ae094424fbef5065f1ee1ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'db9161349b3156adac91a8570ba89efd') in 0.0750416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6636191c7bcc2af7acbeab96f46f7e8e DependenciesID=22ea2e71af16e3428b36776b6215978d StaticDependenciesID=1f7c71fbb31e07685eac55eb0f888d8e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.703362 seconds.
+  path: Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod2_buildings.obj
+  importAddress: Guid(bcf332c891b4de749b699f9216fcaf9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod2_buildings.obj using Guid(bcf332c891b4de749b699f9216fcaf9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2db997d210f7966ff04cd7aa5e59f152') in 0.0958887 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f42b9d1170d04c6f4c49feff787add7 DependenciesID=54f0f1a3d038763ebb4896813f9aac79 StaticDependenciesID=771579430ac4353734ae80f93f014a4c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod2_buildings.mtl
+  importAddress: Guid(9f7db093a5bd26148989a4bb6f38967c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod2_buildings.mtl using Guid(9f7db093a5bd26148989a4bb6f38967c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '907829bc88ed2a1271f248f068d036d2') in 0.0152975 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4dfed4cfac94c442909acdd2e6affe31 DependenciesID=662ab4f5692bd7988ecd119a74193d51 StaticDependenciesID=9f028b06c29838f4831d4b67ebd03cb6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.652465 seconds.
+  path: Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod3_roads.obj
+  importAddress: Guid(a11ee3385c956dd48b9398112afd4a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingolstadt/50-buildings/ingolstadt_50_lod3_roads.obj using Guid(a11ee3385c956dd48b9398112afd4a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '35e3c4fe8e2ca268511c6e1683b981ee') in 2.1362805 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb979cc4c9bc639e257ae13e9f1b2075 DependenciesID=c75b39173f8656c9bbba72aeb38b915e StaticDependenciesID=5e0c4b864bbb6c8a21c96441f625fa9e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 268
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.444957 seconds.
+  path: Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod1_roads.obj
+  importAddress: Guid(0eabe4ef7cbe9bd47866e5999d761900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod1_roads.obj using Guid(0eabe4ef7cbe9bd47866e5999d761900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f1a2eb9503faccb77f418a5161ef2111') in 0.0727348 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=786b611790098ab3b3eeddf575b2ea32 DependenciesID=cf11cb2b3de6ad815070e5e1d87d3280 StaticDependenciesID=03af43f7996fe6570b2a0b78375b81a3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.678651 seconds.
+  path: Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod1_buildings.obj
+  importAddress: Guid(d4294f62241f5894a93eb1d518509d50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod1_buildings.obj using Guid(d4294f62241f5894a93eb1d518509d50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '98a2d304fb23921405c913723f11e742') in 0.742696 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c36fee847434f83ed8db3d972d05ccd DependenciesID=14007e54a8263432f5b355e165142a9c StaticDependenciesID=36d040c0eb1e37d2d5b8e258713d9b2b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1012
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.845474 seconds.
+  path: Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod2_roads.obj
+  importAddress: Guid(ea559e354def48a4fa4edac29336576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod2_roads.obj using Guid(ea559e354def48a4fa4edac29336576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ade1b5202b2f2093a9df1169c2b4c3c6') in 0.059235 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=90ba402f45a3dcba60b8d2231f25be62 DependenciesID=a7fe169a80fd0b668aef37a5c95871d8 StaticDependenciesID=dc361ed66af827171766685bf18f6697 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.749833 seconds.
+  path: Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod2_roads.mtl
+  importAddress: Guid(340cad5d72c6eb749b13f7226b55e96f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod2_roads.mtl using Guid(340cad5d72c6eb749b13f7226b55e96f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f146d06575f9cf9b3488b69ca158c940') in 0.00747 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f614af9aa9237644d84334cc46f20036 DependenciesID=23ed0df0f59c94ffd0311d025c70aa0e StaticDependenciesID=5ab47108ca99104580563343046479e9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod2_roads.obj
+  importAddress: Guid(ea559e354def48a4fa4edac29336576a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod2_roads.obj using Guid(ea559e354def48a4fa4edac29336576a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '52c2fa52c84c377aabe430e809348237') in 0.0169927 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c112d9bd65c5be80e774aa51bb8f3b68 DependenciesID=e5a7f736e002ae2b1583916cafbc2726 StaticDependenciesID=e1a8f836d9ac94244a7103b3e826f70f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod2_buildings.mtl
+  importAddress: Guid(e92a560fb8404df488718334989e6eac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod2_buildings.mtl using Guid(e92a560fb8404df488718334989e6eac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fb35a504c63269cbb9ea52bbbe53f796') in 0.0308064 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d373df971b64b9a72d0bb8b284fdb90 DependenciesID=6c79c33faa69195b8a7ab777ed7cad56 StaticDependenciesID=df1c0e5ec73858375f15bc6fe911d539 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.342688 seconds.
+  path: Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod3_roads.obj
+  importAddress: Guid(27deedb412e7f474e96c4e66c41806bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingolstadt/150-buildings/ingolstadt_150_lod3_roads.obj using Guid(27deedb412e7f474e96c4e66c41806bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7043f3b1e44e4616eef94b03c755f2bd') in 18.290409 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fee8e46922c472ecaf685dba7b6a1834 DependenciesID=635c7fb402a8f43ad66a6d8a3f3d9d0d StaticDependenciesID=dd70d22378cad7aa1b363d3ace9a6758 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2386
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.764521 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_roads.obj
+  importAddress: Guid(492cf293c49518d42be995032771b373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_roads.obj using Guid(492cf293c49518d42be995032771b373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '730fda89f3407079d40de5fb6dbd7cb9') in 0.0761129 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7578e0810deb7724356028fbf89a6f3 DependenciesID=3e1fc6de3f899ea1b64bff37ada47b72 StaticDependenciesID=ff6b59e463e1a6cc751c358ff311c01d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.736364 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_buildings.obj
+  importAddress: Guid(33e4a778c4046574d942e60db4f5d86d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_buildings.obj using Guid(33e4a778c4046574d942e60db4f5d86d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '95364d6869e4f065c09d3f04a7b274f2') in 0.9289916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d823ae210b359db372f7c7cc26cd536 DependenciesID=0d1efc59eda20bd6c4a247cbad6c34d7 StaticDependenciesID=7b361d5a6ea86e1702501a9bd28f0867 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1504
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.599186 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod2_roads.obj
+  importAddress: Guid(dce3a7ff0b8a5094ca181c6cbb2e0db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod2_roads.obj using Guid(dce3a7ff0b8a5094ca181c6cbb2e0db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '861bdf51a4a348455e73563411512931') in 0.0756289 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c043cfc6bdddd17e28a5842d4c2adc6a DependenciesID=25ec2eb1994646a34a2799237a2aabe0 StaticDependenciesID=117a8c8c00204bfe21da20e8d0cf8675 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.784249 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod2_roads.obj
+  importAddress: Guid(dce3a7ff0b8a5094ca181c6cbb2e0db5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod2_roads.obj using Guid(dce3a7ff0b8a5094ca181c6cbb2e0db5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8cf225d810fe7ffe6cc33f5a38285e69') in 0.0191902 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a6d0ae1595ed05fbcb9832e82408909 DependenciesID=bd931530c45f3add54542f09d47214e2 StaticDependenciesID=e588b85b8797e8a659ca68d1589dd7ec 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod2_buildings.mtl
+  importAddress: Guid(00a4ee3d71ba3a94a868951ab21caa7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod2_buildings.mtl using Guid(00a4ee3d71ba3a94a868951ab21caa7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a14d678d7f39ae9e0a89c2e16dfdbde0') in 0.0065916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4901bd1999c109bcc35ffaa16ad61ec DependenciesID=5540028e32a4ec0238c7da140f921964 StaticDependenciesID=81cdf286dd14fb7ff3c33538fd8c33bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod2_roads.mtl
+  importAddress: Guid(56fc70ea487769b45ac5c6c48e38755c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod2_roads.mtl using Guid(56fc70ea487769b45ac5c6c48e38755c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4d8cc27b3b8abb071842e8cd768db7ee') in 0.0047283 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a80ddb7ebaf062cbd66a1fdad980af45 DependenciesID=3e50ef5e1286ac945bfd473d80cebc13 StaticDependenciesID=6cbecb7dfb5df069a5851705bd8eaf17 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.401634 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod3_roads.obj
+  importAddress: Guid(c2b1c5db5114dcd478056aa96c04e29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod3_roads.obj using Guid(c2b1c5db5114dcd478056aa96c04e29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4a67642218acb9d4c0e56527b5078229') in 33.2853251 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0fa57e16875fe6dfd494b4b1f79ae8b8 DependenciesID=0653d355c91a7de9aa90c420bc200ea0 StaticDependenciesID=f32c0efdc5edfc7b8f8a44854e30e307 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3898
+
+========================================================================
+Received Import Request.
+  Time since last request: 27573.956202 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_roads.obj
+  importAddress: Guid(492cf293c49518d42be995032771b373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_roads.obj using Guid(492cf293c49518d42be995032771b373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5be3058a746b797ed246d8239b486162') in 0.5998609 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7578e0810deb7724356028fbf89a6f3 DependenciesID=09b19a9748b85bd3796bc5796fb312aa StaticDependenciesID=aaab881a43540df37055887517f9993c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.003345 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_roads.obj
+  importAddress: Guid(492cf293c49518d42be995032771b373) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_roads.obj using Guid(492cf293c49518d42be995032771b373) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '85c5a2280167152011ceb334a63f8143') in 0.0157148 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df191f102d49a1881729592c2a47f40e DependenciesID=01879ce2798711e865cc7ed119f8097a StaticDependenciesID=a531ce532afe9a87ee4ebc2d754f703e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 854.731479 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_roads.obj
+  importAddress: Guid(492cf293c49518d42be995032771b373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_roads.obj using Guid(492cf293c49518d42be995032771b373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd5c5e62a2c65546e66e4ce9b57cbfae5') in 0.0933038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f07868911353142f22351ca7bb9b93a DependenciesID=94d4f6c2723ac085f3212266b75afdc6 StaticDependenciesID=ee42063e25ad1d3a8957d33085e40533 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.631058 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_buildings.obj
+  importAddress: Guid(33e4a778c4046574d942e60db4f5d86d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_buildings.obj using Guid(33e4a778c4046574d942e60db4f5d86d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '45e31f9e29ec351e6b48c6084517fbe7') in 0.5643756 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c072de27f4d2fa8b718aa3a9e60aebc4 DependenciesID=fd25b1b247651b6fe6df6a7187de2371 StaticDependenciesID=c098482ebc9003a07efcb84361421023 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1257
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_roads.obj
+  importAddress: Guid(492cf293c49518d42be995032771b373) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ingolstadt/250-buildings/ingolstadt_250_lod1_roads.obj using Guid(492cf293c49518d42be995032771b373) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cc641958cba60b8f438740719b31ce6c') in 0.035617 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23e05eb6278b1b8e71d6f60c7746e2a4 DependenciesID=72ac15f3a8bc943ee1bc1bfc822bba5f StaticDependenciesID=96b3cfdb026c15a785fca933e15f8bd8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
